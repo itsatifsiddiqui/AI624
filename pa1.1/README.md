@@ -1,5 +1,9 @@
 # AI 624 Assignment - PA 1.1
 
+The implementation and all the code files are available on the public github repo, you can access from the following link. You can check the pa1.1 branch.
+
+https://github.com/itsatifsiddiqui/AI624/tree/pa1.1/pa1.1
+
 ## Task 0 - Baseline Results
 
 Started by profiling the baseline VGG16-BN models on CIFAR-10 and CIFAR-100 to establish reference values.
