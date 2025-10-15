@@ -1,0 +1,106 @@
+{
+    "dataset": "cifar10",
+    "method": "He et al. 2017 - LASSO + Weight Reconstruction",
+    "baseline_top1": 94.16,
+    "baseline_top5": 99.71,
+    "final_top1": 86.88,
+    "final_top5": 98.95,
+    "accuracy_drop": 7.280000000000001,
+    "model_size_mb": 4.0528564453125,
+    "total_params": 1052514,
+    "original_params": 15253578,
+    "overall_sparsity": 0.9309988777714973,
+    "latency_ms": 2.7838706970214844,
+    "peak_memory_mb": 415.7255859375,
+    "macs": 31903392,
+    "pruning_log": {
+        "features.7": {
+            "original_in_channels": 64,
+            "pruned_in_channels": 19,
+            "original_out_channels": 128,
+            "sparsity": 0.7,
+            "accuracy_after": 39.53,
+            "method": "LASSO + Weight Reconstruction"
+        },
+        "features.10": {
+            "original_in_channels": 128,
+            "pruned_in_channels": 51,
+            "original_out_channels": 128,
+            "sparsity": 0.6,
+            "accuracy_after": 32.1,
+            "method": "LASSO + Weight Reconstruction"
+        },
+        "features.14": {
+            "original_in_channels": 128,
+            "pruned_in_channels": 51,
+            "original_out_channels": 256,
+            "sparsity": 0.6,
+            "accuracy_after": 29.58,
+            "method": "LASSO + Weight Reconstruction"
+        },
+        "features.17": {
+            "original_in_channels": 256,
+            "pruned_in_channels": 76,
+            "original_out_channels": 256,
+            "sparsity": 0.7,
+            "accuracy_after": 23.2,
+            "method": "LASSO + Weight Reconstruction"
+        },
+        "features.20": {
+            "original_in_channels": 256,
+            "pruned_in_channels": 76,
+            "original_out_channels": 256,
+            "sparsity": 0.7,
+            "accuracy_after": 12.81,
+            "method": "LASSO + Weight Reconstruction"
+        },
+        "features.24": {
+            "original_in_channels": 256,
+            "pruned_in_channels": 51,
+            "original_out_channels": 512,
+            "sparsity": 0.8,
+            "accuracy_after": 10.06,
+            "method": "LASSO + Weight Reconstruction"
+        },
+        "features.27": {
+            "original_in_channels": 512,
+            "pruned_in_channels": 51,
+            "original_out_channels": 512,
+            "sparsity": 0.9,
+            "accuracy_after": 10.78,
+            "method": "LASSO + Weight Reconstruction"
+        },
+        "features.30": {
+            "original_in_channels": 512,
+            "pruned_in_channels": 51,
+            "original_out_channels": 512,
+            "sparsity": 0.9,
+            "accuracy_after": 10.49,
+            "method": "LASSO + Weight Reconstruction"
+        },
+        "features.34": {
+            "original_in_channels": 512,
+            "pruned_in_channels": 51,
+            "original_out_channels": 512,
+            "sparsity": 0.9,
+            "accuracy_after": 10.06,
+            "method": "LASSO + Weight Reconstruction"
+        },
+        "features.37": {
+            "original_in_channels": 512,
+            "pruned_in_channels": 51,
+            "original_out_channels": 512,
+            "sparsity": 0.9,
+            "accuracy_after": 10.0,
+            "method": "LASSO + Weight Reconstruction"
+        },
+        "features.40": {
+            "original_in_channels": 512,
+            "pruned_in_channels": 51,
+            "original_out_channels": 512,
+            "sparsity": 0.9,
+            "accuracy_after": 10.0,
+            "method": "LASSO + Weight Reconstruction"
+        }
+    }
+}
