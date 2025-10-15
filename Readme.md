@@ -1,0 +1,1 @@
+Assignments for AI 624 (AI For Edge Devices)
